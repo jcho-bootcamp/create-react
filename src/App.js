@@ -6,11 +6,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar dark color="primary">
+        <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo"></img>
+        <navbar dark color="primary">
           <div className="container">
-            <NavBrand href="/">Ristorante Con Fusion</NavBrand>
+            <navBrand href="/">Ristorante Con Fusion</navBrand>
           </div>
-        </Navbar>
+        </navbar>
+        </header>
       </div>
     );
   }
